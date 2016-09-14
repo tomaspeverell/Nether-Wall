@@ -1,0 +1,26 @@
+main: com.myplugin.wall.Wall
+name: Wall
+version: 1.0
+author: me
+description: An Example plugin
+commands:
+  setwallz:
+    description: Set wall z coordinare
+    usage: /setwallz
+    permission: wall.setwallz
+    permission-message: You don't have the wall.setwallz permission.
+  setwallx:
+    description: Set wall x coordinare
+    usage: /setwallx
+    permission: wall.setwallx
+    permission-message: You don't have the wall.setwallx permission.
+  activatewall:
+    description: Activate wall
+    usage: /activatewall
+    permission: wall.activatewall
+    permission-message: You don't have the wall.activatewall permission.
+  deactivatewall:
+    description: Deactivate wall
+    usage: /deactivatewall
+    permission: wall.deactivatewall
+    permission-message: You don't have the wall.deactivatewall permission.
